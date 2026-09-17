@@ -4,3 +4,5 @@ dist/
 .env.local
 *.log
 .DS_Store
+# .env.production is intentionally committed so Vite bakes the backend URL into the Render build
+!.env.production
